@@ -32,6 +32,8 @@ body {
     color: var(--text-color);
 
     font-size: 1rem;
+    font-family: 'Bruno Ace SC', 'Genos', 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
+    line-height: 2rem;
 }
 
 li {
@@ -41,6 +43,8 @@ li {
 a {
     text-decoration: none;
     color: var(--text-color);
+    font-family: 'Genos', sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
 }
 
 
@@ -59,10 +63,11 @@ header .bg-img {
     left: 0;
     right: 0;
 
-    background-image: var(--bg-img);
-    background-size: cover;
+    background: 
+        linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%),
+        url(../img/drgn1-uscld.jpg);
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-size: 110%;
 }
 header .content {
     position: absolute;
@@ -71,6 +76,16 @@ header .content {
     right: 0;
 
     margin: 0 110px;
+}
+#logo,
+#title {
+    font-family: 'Bruno Ace SC', 'Genos', 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
+}
+#logo {
+    font-size: 2rem;
+}
+#title {
+    font-size: 3rem;
 }
 
 header .navbar {
@@ -94,5 +109,9 @@ header .description {
     justify-content: center;
     flex-direction: column;
     width: 33%;
+}
+header .description p {
+    margin: 5rem 0;
+    font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
 }
 
