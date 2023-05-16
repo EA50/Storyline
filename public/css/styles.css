@@ -1,4 +1,11 @@
 
+:root {
+    --bg-img: url('../img/drgn1-uscld.jpg');
+
+    --text-color: hsl(0, 0%, 100%);
+    --bg-color: hsl(0, 0%, 0%);
+}
+
 html {
     box-sizing: border-box;
 
@@ -14,39 +21,78 @@ html {
     padding: 0;
 
     outline: inherit;
+    color: inherit;
 }
 
 body {
-    height: fit-content;
+    height: 200vh;
     width: 100%;
 
-    display: grid;
-    place-items: center;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+    font-size: 1rem;
 }
 
-div {
-    height: 150px;
-    width: 150px;
-
-    background-color: blue;
-    /* animation-name: slide; */
-    animation-timing-function: ease;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+li {
+    display: inline-block;
 }
 
-@keyframes slide {
-    0% {
-        transform: translateX(0%);
-        transform: translateY(0%);
-    }
-    25% {
-        transform: translateX(100%);
-        transform: translateY(100%);
-    }
-    75% {
-    }
-    100% {
-        transform: translateX(0%);
-    }
+a {
+    text-decoration: none;
+    color: var(--text-color);
 }
+
+
+header {
+    height: 100vh;
+    position: relative;
+
+}
+
+header .bg-img {
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-image: var(--bg-img);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    margin: 0 110px;
+}
+
+header .navbar {
+    height: calc(100vh * 0.1);
+
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+    .navbar ul li {
+        margin: 0 5rem;
+    }
+
+header .description {
+    height: calc(100vh * 0.9);
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 33%;
+}
+
