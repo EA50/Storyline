@@ -1,0 +1,24 @@
+
+:root {
+    --bg-img: url('../img/creature.jpg');
+}
+
+main section {
+    height: 90vh;
+    width: 100%;
+}
+
+#body-description-top {
+    position: relative;
+}
+
+.body-bg-img-creature {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    height: 500px;
+    width: 500px;
+
+    background: var(--bg-img);
+}
