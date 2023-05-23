@@ -9,7 +9,7 @@
 html {
     box-sizing: border-box;
 
-    outline: 1px dotted blue;
+    /* outline: 1px dotted blue; */
 }
 
 
@@ -20,7 +20,7 @@ html {
     margin: 0;
     padding: 0;
 
-    outline: inherit;
+    /* outline: inherit; */
     color: inherit;
 }
 
@@ -34,6 +34,16 @@ body {
     font-size: 1rem;
     font-family: 'Bruno Ace SC', 'Genos', 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
     line-height: 2rem;
+
+    display: grid;
+    place-items: center;
+
+    overflow-x: hidden;
+}
+
+body #container {
+    width: 80vw;
+    max-width: 1228px;
 }
 
 li {
@@ -87,8 +97,6 @@ header .content {
     top: 0;
     left: 0;
     right: 0;
-
-    margin: 0 110px;
 }
 #logo,
 #title {
@@ -98,7 +106,7 @@ header .content {
     font-size: 2rem;
 }
 #title {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 header .navbar {
