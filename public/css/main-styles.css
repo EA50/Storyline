@@ -6,15 +6,17 @@
 }
 
 main section {
-    height: 90vh;
+    height: 684px;
     width: 100%;
-    overflow: hidden;
+    overflow: none;
 }
 .container-grid {
     height: 100%;
     display: grid;
 
     grid-template-columns: repeat(2, 1fr);
+
+    position: relative;
 }
 
 #body-description-top,
@@ -22,31 +24,94 @@ main section {
 #body-description-bottom {
     position: relative;
 }
-
+.body-bg-img-creature,
+.body-bg-img-throne,
+.body-bg-img-hunter {
+    position: absolute;
+    top: 0;
+}
 .body-bg-img-creature {
-    right: 0;
+    right: -153.6px;
     background: var(--bg-img-creature);
 }
 .body-bg-img-throne {
-    left: 0;
+    left: -153.6px;
     background: var(--bg-img-throne);
 }
 .body-bg-img-hunter {
-    right: 0;
+    right: -153.6px;
     background: var(--bg-img-hunter);
 
 }
 .body-bg-img-creature,
 .body-bg-img-throne,
 .body-bg-img-hunter {
-    position: absolute;
-    top: 0;
-
+    height: 100%;
     aspect-ratio: 1/1;
 
-    height: 90vh;
 
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-filter: blur(5px);
+    -webkit-filter: blur(5px) brightness(50%) contrast(200%);
+}
+
+.container-grid-text,
+.container-grid-img {
+    width: 40%;
+    position: absolute;
+}
+.container-grid-approximation-text {
+    top: 50%;
+    left: 0;
+}
+.container-grid-negation-text {
+    top: 33%;
+    right: 0;
+}
+.container-grid-journey-text {
+    top: 50%;
+    left: 0;
+}
+.container-grid-text h2 {
+    font-size: 3rem;
+
+    line-height: 100px;
+}
+.container-grid-text p {
+    font-size: 1rem;
+
+}
+.container-grid-text p span {
+    font-size: 3rem;
+
+}
+
+.container-grid-img-top,
+.container-grid-img-bottom,
+.container-grid-img-mid {
+    top: 5%;
+    right: 0;
+    width: 50%;
+}
+.container-grid-img-mid {
+    left: 0;
+}
+.img-creature {
+    background: var(--bg-img-creature);
+}
+.img-throne {
+    background: var(--bg-img-throne);
+}
+.img-hunter {
+    background: var(--bg-img-hunter);
+}
+
+
+.container-grid-imgs {
+    height: 80%;
+
+    aspect-ratio: 1/1;
+
+    background-size: cover;
+    background-repeat: no-repeat;
 }

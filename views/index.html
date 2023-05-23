@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animation</title>
 
-    <link rel="stylesheet" href="/css/header-styles.css">
-    <link rel="stylesheet" href="/css/main-styles.css">
+    <link rel="stylesheet" href="../public/css/header-styles.css">
+    <link rel="stylesheet" href="../public/css/main-styles.css">
+    <!-- <link rel="stylesheet" href="/css/header-styles.css">
+    <link rel="stylesheet" href="/css/main-styles.css"> -->
     <!-- <link rel="stylesheet" href="/css/animations.css"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,80 +18,88 @@
 
 </head>
 <body>
+    <div id="container">
 
-    <header>
-        <div class="bg-img-1 bg-img"></div>
-        <div class="bg-img-2 bg-img"></div>
-        <div class="content">
-            <div class="navbar">
-                <h1 id="logo">STORYLINE</h1>
-                <ul>
-                    <li><a href="#">AUTHOR</a></li>
-                    <li><a href="#">INFO</a></li>
-                </ul>
+        <header>
+            <div class="content">
+                <div class="navbar">
+                    <h1 id="logo">STORYLINE</h1>
+                    <ul>
+                        <li><a href="#">AUTHOR</a></li>
+                        <li><a href="#">INFO</a></li>
+                    </ul>
+                </div>
+                <div class="description">
+                    <h1 id="title">DESOLATION</h1>
+                    <p>Begin a journey with one of the most hated sorcerers in a total-desolate, post-apocalyptic world of abomination.</p>
+                </div>
+    
             </div>
-            <div class="description">
-                <h1 id="title">DESOLATION</h1>
-                <p>Begin a journey with one of the most hated sorcerers in a total-desolate, post-apocalyptic world of abomination.</p>
-            </div>
-
-        </div>
-    </header>
-
-    <main>
-        <section id="body-description-top">
-            <div class="body-bg-img-creature"></div>
-
-            <div class="container-grid">
-
-                <div class="container-grid-text">
-                    <h2>APPROXIMATION</h2>
-                    <p><span>“</span>One can only stand in awe as one of the most feared worldly creatures rise from the depths. Only stand in praise as the creature hovers the skies.<span>”</span></p>
+        </header>
+    
+        <main>
+            <section id="body-description-top">
+                <div class="body-bg-img-creature"></div>
+    
+                <div class="container-grid">
+    
+                    <div class="container-grid-text container-grid-approximation-text">
+                        <h2>APPROXIMATION</h2>
+                        <p><span>“...</span> Only stand in awe as one of the most feared worldly creatures rise from the depths. Only stand in praise as the creature hovers the skies.</p>
+                    </div>
+    
+                    <div class="container-grid-img container-grid-img-top">
+                        <div class="container-grid-imgs img-creature"></div>
+                    </div>
+    
                 </div>
-
-                <div class="container-grid-img">
-                    <div class="img-creature"></div>
+    
+            </section>
+            <section id="body-description-mid">
+                <div class="body-bg-img-throne"></div>
+    
+                <div class="container-grid">
+    
+                    <div class="container-grid-img container-grid-img-mid">
+                        <div class="container-grid-imgs img-throne"></div>
+                    </div>
+    
+                    <div class="container-grid-text container-grid-negation-text">
+                        <h2>NEGATION</h2>
+                        <p><span>“...</span> One can only become who he is if he
+                            does what others do not expect him to
+                            do.</p>
+                    </div>
+    
                 </div>
-
-            </div>
-
-        </section>
-        <section id="body-description-mid">
-            <div class="body-bg-img-throne"></div>
-
-            <div class="container-grid">
-
-                <div class="container-grid-img">
-                    <div class="img-throne"></div>
+    
+            </section>
+            <section id="body-description-bottom">
+                <div class="body-bg-img-hunter"></div>
+    
+                <div class="container-grid">
+    
+                    <div class="container-grid-text
+                    container-grid-journey-text">
+                        <h2>JOURNEY</h2>
+                        <p><span>“...</span> Denying is your last hope. Now, beg as you are now for your life is as good as a diamond in the heavens and as pure as the stars above.</p>
+                    </div>
+    
+                    <div class="container-grid-img container-grid-img-bottom">
+                        <div class="container-grid-imgs img-hunter"></div>
+                    </div>
+    
                 </div>
+    
+            </section>
 
-                <div class="container-grid-text">
-                    <h2>APPROXIMATION</h2>
-                    <p><span>“</span>One can only stand in awe as one of the most feared worldly creatures rise from the depths. Only stand in praise as the creature hovers the skies.<span>”</span></p>
-                </div>
 
-            </div>
+            <section id="flag-img"></section>
 
-        </section>
-        <section id="body-description-bottom">
-            <div class="body-bg-img-hunter"></div>
-
-            <div class="container-grid">
-
-                <div class="container-grid-text">
-                    <h2>APPROXIMATION</h2>
-                    <p><span>“</span>One can only stand in awe as one of the most feared worldly creatures rise from the depths. Only stand in praise as the creature hovers the skies.<span>”</span></p>
-                </div>
-
-                <div class="container-grid-img">
-                    <div class="img-hunter"></div>
-                </div>
-
-            </div>
-
-        </section>
-    </main>
-
+        </main>
+    
+    
+    </div>
 
 
     <script src="/js/index.js"></script>
