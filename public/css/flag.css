@@ -1,0 +1,32 @@
+
+:root {
+    --bg-img-standoff: url('../img/standoff.jpg');
+}
+
+
+#flag-img {
+    height: 792px;
+    position: relative;
+
+
+    
+}
+.flag-img {
+    height: 100%;
+    width: calc(100% + 308px);
+
+    background: var(--bg-img-standoff);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: -154px;
+}
+
+.flag-img h1 {
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+
