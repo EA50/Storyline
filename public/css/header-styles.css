@@ -1,6 +1,6 @@
 
 :root {
-    --bg-img-header: url('../img/drgn1-uscld.jpg');
+    --bg-img-header: url('../img/drgn.jpg');
 
     --text-color: hsl(0, 0%, 100%);
     --bg-color: hsl(0, 0%, 0%);
@@ -9,7 +9,7 @@
 html {
     box-sizing: border-box;
 
-    /* outline: 1px dotted blue; */
+    outline: 1px dotted blue;
 }
 
 
@@ -20,7 +20,7 @@ html {
     margin: 0;
     padding: 0;
 
-    /* outline: inherit; */
+    outline: inherit;
     color: inherit;
 }
 
@@ -59,44 +59,36 @@ a {
 
 
 header {
-    height: 100vh;
+    height: 792px;
     position: relative;
-
-    overflow: hidden;
 }
 header .bg-img {
     height: 100%;
-    width: 100%;
+    width: calc(100% + 308px);
 
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+    left: -154px;
 
 }
 header .bg-img-1 {
 
     background: 
-        linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%),
-        var(--bg-img-header);
-    background-repeat: repeat;
-    background-size: 67%;
-    background-position-x: center;
-}
-header .bg-img-2 {
-
-    background: 
-        linear-gradient(to top, rgba(0, 0, 0, 0.67)50%, rgba(0, 0, 0, 0.67)50%),
+        linear-gradient(to top, rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.6)50%),
         var(--bg-img-header);
     background-repeat: no-repeat;
-    background-size: 67%;
-    background-position-x: center;
+    background-size: cover;
+    background-position: center center;
 }
+
 header .content {
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
+
+    z-index: 100;
 }
 #logo,
 #title {
@@ -110,7 +102,7 @@ header .content {
 }
 
 header .navbar {
-    height: calc(100vh * 0.1);
+    height: 10%;
 
     
     display: flex;
@@ -124,7 +116,7 @@ header .navbar {
     }
 
 header .description {
-    height: calc(100vh * 0.9);
+    height: 90%;
     
     display: flex;
     justify-content: center;
