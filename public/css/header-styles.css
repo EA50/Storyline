@@ -44,6 +44,7 @@ body {
 body #container {
     width: 80vw;
     max-width: 1228px;
+    margin-bottom: 77px;
 }
 
 li {
@@ -98,7 +99,7 @@ header .content {
     font-size: 2rem;
 }
 #title {
-    font-size: 5rem;
+    font-size: 7rem;
 }
 
 header .navbar {
@@ -116,15 +117,48 @@ header .navbar {
     }
 
 header .description {
-    height: 90%;
+    position: absolute;
+    top: 25%;
+    right: 0;
+
+    height: 100%;
+    width: 100%;
+
+    text-align: center;
     
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 33%;
+
 }
 header .description p {
     margin: 5rem 0;
     font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
 }
+
+.scroll-down {
+    position: absolute;
+    bottom: 2.5%;
+    left: 50%;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 64px;
+    width: 2rem;
+
+    overflow-y: hidden;
+
+
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: linear;
+
+    z-index: 10;
+}
+.scroll-down img {
+
+    height: 100%;
+    width: 100%;
+}
+
 

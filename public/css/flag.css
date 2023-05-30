@@ -16,7 +16,8 @@
     width: calc(100% + 308px);
 
     background: var(--bg-img-standoff);
-    background-size: cover;
+    background-size: 100%;
+    background-position: center center;
     background-repeat: no-repeat;
 
     position: absolute;
@@ -24,9 +25,10 @@
     left: -154px;
 }
 
-.flag-img h1 {
+#flag-img h2 {
+    font-size: 3rem;
+    z-index: 100;
     position: absolute;
     top: 10%;
     left: 0;
 }
-

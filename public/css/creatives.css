@@ -1,0 +1,45 @@
+
+:root {
+    --bg-img-octo: url('../img/O-to.jpg');
+    --bg-img-di4: url('../img/Di4.jpg');
+}
+
+
+#creatives {
+    height: 792px;
+
+    
+}
+
+.creatives-container-text {
+    height: 20%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.creatives-container-text h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.creatives-container-grid {
+    height: 80%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#di4 {
+    background: var(--bg-img-di4);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+#octo {
+    background: var(--bg-img-octo);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}

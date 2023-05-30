@@ -28,6 +28,7 @@ main section {
 .body-bg-img-hunter {
     position: absolute;
     top: 0;
+
 }
 .body-bg-img-creature {
     right: -153.6px;
@@ -111,6 +112,7 @@ main section {
 
     aspect-ratio: 1/1;
 
-    background-size: cover;
+    background-size: 100%;
+    background-position: center center;
     background-repeat: no-repeat;
 }

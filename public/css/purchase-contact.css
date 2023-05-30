@@ -1,0 +1,42 @@
+
+
+#purchase-section,
+#contact-section {
+    height: 396px;
+    display: grid;
+    place-items: center;
+}
+#purchase-section h2,
+#contact-section h2 {
+    width: 200%;
+    font-size: 3rem;
+}
+#purchase-section p,
+#contact-section p {
+    font-size: 1rem;
+}
+
+#purchase-section div,
+#contact-section div {
+    height: 50%;
+    width: 33%;
+
+    text-align: center;
+
+    display: grid;
+    place-items: center;
+}
+#purchase-section button,
+#contact-section button {
+    height: 4rem;
+    width: 16rem;
+
+    border-style: solid none none solid;
+    border-width: 3px;
+    border-color: white;
+
+    background-color: transparent;
+
+    font-size: 1rem;
+}
+   

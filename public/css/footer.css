@@ -1,0 +1,39 @@
+
+
+footer {
+    height: 715px;
+
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+footer h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+footer img {
+    margin: 0 10px;
+}
+
+.container-grid-footer {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-grid-footer:nth-child(1) {
+    border: 3px solid #ffffff;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: black;
+}
+
+#contact-icons {
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
+}
