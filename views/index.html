@@ -9,15 +9,33 @@
     <link rel="stylesheet" href="../public/css/header-styles.css">
     <link rel="stylesheet" href="../public/css/main-styles.css">
     <link rel="stylesheet" href="../public/css/flag.css">
-    <!-- <link rel="stylesheet" href="/css/header-styles.css">
-    <link rel="stylesheet" href="/css/main-styles.css"> -->
-    <!-- <link rel="stylesheet" href="/css/animations.css"> -->
+    <link rel="stylesheet" href="../public/css/purchase-contact.css">
+    <link rel="stylesheet" href="../public/css/creatives.css">
+    <link rel="stylesheet" href="../public/css/footer.css">
+    <link rel="stylesheet" href="../public/css/animations.css">
+
+    <link rel="stylesheet" href="../public/css/mobile.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Genos:wght@300;400;500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 
 </head>
+
+<style>
+
+    h1, h2 {
+        line-height: 7rem;
+    }
+    @media (max-width: 1100px) {
+        h1, 
+        h2 {
+        line-height: 4rem;
+    }
+    }
+
+</style>
+
 <body>
     <div id="container">
 
@@ -32,11 +50,15 @@
                 </div>
                 <div class="description">
                     <h1 id="title">DESOLATION</h1>
-                    <p>Begin a journey with one of the most hated sorcerers in a total-desolate, post-apocalyptic world of abomination.</p>
                 </div>
     
             </div>
             <div class="bg-img bg-img-1"></div>
+            
+            <div class='scroll-down'>
+                <img class='arrow-a' src='/public/assets/scroll.svg'></img>
+            </div>
+
         </header>
     
         <main>
@@ -57,6 +79,11 @@
                 </div>
     
             </section>
+            
+
+
+
+
             <section id="body-description-mid">
                 <div class="body-bg-img-throne"></div>
     
@@ -98,22 +125,75 @@
 
             <section id="flag-img">
 
-                <h2><span>“...</span>BEHOLD</h2>
+                <h2><span>“...</span>  BETWEEN RIVALS AT THE COST OF NONE.</h2>
                 <div class="flag-img"></div>
             </section>
             
-            <section>
+            <section id="purchase-section">
+                <div>
+                    <h2>PURCHASE THE BOOK</h2>
+                    <p>The portal below will direct you to this world.</p>
+                    <button>ACQUIRE</button>
+                </div>
 
+            </section>
+            <section id="contact-section">
+                <div>
+                    <h2>CONTACT</h2>
+                    <p>create a memorable moment with the book.</p>
+                    <button>CONTACT</button>
+                </div>
 
             </section>
 
+            <section id="creatives">
+                <div class="creatives-container-text">
+                    <h2>COLLABORATING CREATIVES</h2>
+                    <p>Thankful for the support of Octo and Di4 for giving their time and 'money' for this book to be made. The creation and design has been efficient with these two.</p>
+                </div>
+                <div class="creatives-container-grid">
+                    <div id="octo" class="creatives-logo"></div>
+                    <div id="di4" class="creatives-logo"></div>
+                </div>
+            </section>
+
         </main>
+
+        <footer>
+            <div class="container-grid-footer">
+                <h2>STORYLINE</h2>
+                <h6><span>©</span> STORYLINE 2023</h6>
+            </div>
+            <div class="container-grid-footer">
+                <h2>DESOLATION</h2>
+                <div id="contact-icons">
+                    <a href="#">
+                        <img src="/public/assets/discord.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="/public/assets/email.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="/public/assets/facebook.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </footer>
     
     
     </div>
 
+    <div class="floating-lines">
+        <div class="floating-line line-a" style="--duration: 4;"></div>
+        <div class="floating-line line-b" style="--duration: 3;"></div>
+        <div class="floating-line line-c" style="--duration: 2.5;"></div>
+        <div class="floating-line line-d" style="--duration: 1;"></div>
+        <div class="floating-line line-e" style="--duration: 2;"></div>
+        <div class="floating-line line-f" style="--duration: 3.25;"></div>
+    </div>
 
-    <script src="/js/index.js"></script>
+
+    <script src="../public/js/index.js"></script>
     
 </body>
 </html>

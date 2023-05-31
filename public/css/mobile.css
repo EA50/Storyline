@@ -1,0 +1,119 @@
+
+@media (max-width: 1100px) {
+    /* general */
+    body #container {
+        width: 100vw;
+        margin-bottom: 77px;
+    
+    }
+
+    
+
+    /* header */
+    header,
+    section,
+    footer {
+        padding: 1.5rem;
+    }
+    header .bg-img {
+        width: 100%;
+        left: 0;
+    }
+    #logo,
+    a {
+        font-size: 1rem;
+    }
+
+    .scroll-down {
+        left: 47.5%;
+    }
+
+    header .content {
+        left: unset;
+        right: unset;
+    }
+
+    /* main-styles */
+    main section {
+        width: 100%;
+    }
+
+    .container-grid-img {
+        display: none
+    }
+
+
+    
+    .container-grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-grid-text {
+        position: unset;
+        width: 110%;
+    }
+
+    .container-grid-text h2 {
+        font-size: 2rem;
+    }
+    .container-grid-text p {
+        font-size: 0.75rem;
+    }
+    .body-bg-img-creature,
+    .body-bg-img-throne,
+    .body-bg-img-hunter {
+        width: 100%;
+        left: 0;
+    }
+
+
+    #flag-img {
+        height: 50vh;
+    }
+    .flag-img {
+        display: none;
+    }
+    #flag-img h2 {
+        font-size: 2rem;
+        text-align: center;
+        position: unset;
+    }
+
+    /* pur-con */
+    #purchase-section, #contact-section {
+        padding: 0;
+        display: unset;
+    }
+    #purchase-section div, 
+    #contact-section div {
+        height: 100%;
+        width: 100%;
+
+        font-size: 0.75rem;
+    }
+    #purchase-section div p, 
+    #contact-section div p {
+        font-size: 0.75rem;
+    }
+    #purchase-section div h2, 
+    #contact-section div h2 {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    /* cret */
+
+    #creatives {
+        height: 75vh;
+    }
+    #creatives div h2 {
+        font-size: 2rem;
+    }
+    /* foot */
+    footer h2 {
+        font-size: 2rem;
+    }
+}
