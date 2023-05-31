@@ -8,6 +8,7 @@
 #creatives {
     height: 792px;
 
+    margin: 4rem 0 0 0;
     
 }
 
@@ -21,7 +22,6 @@
 }
 .creatives-container-text h2 {
     font-size: 3rem;
-    line-height: 3rem;
 }
 
 .creatives-container-grid {

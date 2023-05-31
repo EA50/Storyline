@@ -116,3 +116,14 @@ main section {
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+@media (max-width: 1400px) {
+    
+    .container-grid-text h2 {
+        font-size: 2.5rem;
+    }
+    main section {
+        height: 90vh;
+    }
+
+}

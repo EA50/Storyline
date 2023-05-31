@@ -32,3 +32,10 @@
     top: 10%;
     left: 0;
 }
+
+
+@media (max-width: 1400px) {
+    #flag-img {
+        height: 100vh;
+    }
+}

@@ -40,8 +40,14 @@
 
 /* body descriptions */
 
-.container-grid-img {
+.container-grid-img-top {
     transform: translate3d(0, 50%, 0);
+}
+.container-grid-img-mid {
+    transform: translate3d(0, 58.5%, 0);
+} 
+.container-grid-img-bottom {
+    transform: translate3d(0, 67%, 0);
 }
 
 
@@ -61,6 +67,18 @@
 .flag-img:hover {
     background-size: 110%;
 }
+/* contact/puchase */
+
+#purchase-section div button,
+#contact-section div button {
+    -webkit-transition: 0.1s linear;
+}
+#purchase-section div button:hover,
+#contact-section div button:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+}
 
 
 
@@ -74,7 +92,7 @@
     left: 0;
 
     height: 792px;
-    width: 100%;
+    width: 100vw;
 }
 
 .floating-line {
@@ -137,3 +155,10 @@
 
 /* @keyframes duration | easing-function | delay |
 iteration-count | direction | fill-mode | play-state | name */
+
+
+@media (max-width: 1400px) {
+    .container-grid-img-bottom {
+        transform: translate3d(0, 100%, 0);
+    }
+}

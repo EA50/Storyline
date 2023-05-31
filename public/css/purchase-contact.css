@@ -14,6 +14,7 @@
 #purchase-section p,
 #contact-section p {
     font-size: 1rem;
+    line-height: 2rem;
 }
 
 #purchase-section div,
@@ -30,6 +31,10 @@
 #contact-section button {
     height: 4rem;
     width: 16rem;
+
+    margin: 2rem 0;
+
+    font-family: inherit;
 
     border-style: solid none none solid;
     border-width: 3px;

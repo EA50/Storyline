@@ -8,7 +8,7 @@
 
 html {
     box-sizing: border-box;
-
+    cursor: default;
     outline: 1px dotted blue;
 }
 
@@ -45,6 +45,7 @@ body #container {
     width: 80vw;
     max-width: 1228px;
     margin-bottom: 77px;
+
 }
 
 li {
@@ -100,6 +101,8 @@ header .content {
 }
 #title {
     font-size: 7rem;
+
+    transition: opacity 1s linear;
 }
 
 header .navbar {
@@ -113,7 +116,7 @@ header .navbar {
 }
 
     .navbar ul li {
-        margin: 0 5rem;
+        margin: 0 0 0 5rem;
     }
 
 header .description {
@@ -130,10 +133,6 @@ header .description {
     justify-content: center;
     flex-direction: column;
 
-}
-header .description p {
-    margin: 5rem 0;
-    font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
 }
 
 .scroll-down {
@@ -161,4 +160,19 @@ header .description p {
     width: 100%;
 }
 
+
+@media (max-width: 1400px) {
+    header {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 1100px) {
+    header .description {
+        top: 10%;
+    }
+    #title {
+        font-size: 2.5rem;
+    }
+}
 
