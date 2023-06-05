@@ -33,12 +33,13 @@
 
 #di4 {
     background: var(--bg-img-di4);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: transparent;
 }
 #octo {
     background: var(--bg-img-octo);
+}
+#di4,
+#octo {
+    background-position: center center;
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: transparent;
