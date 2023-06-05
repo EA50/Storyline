@@ -29,7 +29,8 @@
     }
 
     header .content {
-        left: unset;
+        width: 100%;
+        left: 0;
         right: unset;
     }
 
